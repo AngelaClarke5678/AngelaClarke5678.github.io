@@ -215,6 +215,7 @@ form {
     margin: 50px auto;
     width: 90%;
     background-color: #fff;
+    box-border
 }
 
 .form-item {
