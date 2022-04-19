@@ -211,6 +211,7 @@ footer {
 
 /* contact Page */
 form {
+    padding-top: 20px;
     margin: 50px auto;
     width: 90%;
     background-color: #fff;
