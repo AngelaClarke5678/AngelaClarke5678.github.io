@@ -197,6 +197,7 @@ div .hero-txt {
     text-align:center;
 }
 
+
 #skills {
     width: calc(100%-80px);
     display: flex;
@@ -205,6 +206,7 @@ div .hero-txt {
     align-items: center;
     border-radius: 10px;
     background: #ECF2FF;
+    margin: 20px;
 }
 
 #skills>img {
@@ -306,7 +308,7 @@ form {
 
 /* Media Queries */
 /* mobile */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .intro {
         flex-direction: column;
     }
