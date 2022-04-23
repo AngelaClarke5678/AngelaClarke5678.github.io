@@ -296,8 +296,6 @@ form {
     font-size: 2rem;
     height: 300px;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
     border-radius: 5px;
     background: #fff;
     margin: 10px;
@@ -364,6 +362,20 @@ form {
     .navbar {
         display: none;
     }
+
+    .form {
+        padding: 20px;
+    }
+    .form-item {
+        display: flex;
+        flex-direction: column;  
+        align-items: stretch;  
+        padding: 5px 20px;
+    }
+    .form-item label {
+        flex-basis: auto;
+    }
+
 
     /* Style the navigation menu */
     .topnav {
@@ -467,6 +479,7 @@ form {
         background-color: #FAD6E1;
         color: white;
     }
+
 }
 
 /* large screens */
