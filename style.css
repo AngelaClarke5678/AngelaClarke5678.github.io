@@ -197,7 +197,6 @@ div .hero-txt {
     text-align:center;
 }
 
-
 #skills {
     width: calc(100%-80px);
     display: flex;
@@ -220,10 +219,6 @@ div .hero-txt {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px;
 }
 
-#skills>img:hover {
-    box-shadow: rgb(235, 170, 215) 3px 3px 6px 0px;
-}
-
 footer {
     background-color: #FFF;
     font-size: 20px;
@@ -231,6 +226,8 @@ footer {
     color: #000;
     text-align: center;
     height: 100px;
+    min-height: 100px;
+    padding-top: 20px;
 }
 
 /* contact Page */
@@ -262,7 +259,7 @@ form {
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid #FA4224;
+    border: 2px solid rgb(235, 170, 215);
 }
 
 .form-item input,
@@ -273,14 +270,9 @@ form {
     font-size: 18px;
 }
 
-.form-item button:hover {
-    border: 2px solid #FA4224;
-    background-color: #FA4224;
-    color: #FFF;
-}
-
 .form-item button {
     width: 100px;
+    justify-content: center;
 }
 
 /* Project page*/
@@ -339,12 +331,16 @@ form {
     div .transbox {
         width: 100%;
         padding: 20px;
+        justify-content: center;
     }
     .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
+
     .hero-card {
         width: 100%;
     }
@@ -352,7 +348,7 @@ form {
         object-fit: cover;
         height: 200px;
         border-radius: 50%;
-        text-align:center;
+        text-align: center;
     }
 
     #skills>img {
@@ -372,10 +368,14 @@ form {
         align-items: stretch;  
         padding: 5px 20px;
     }
+
+    .form-item button {
+        width: 100px;
+        justify-content: center;
+    }
     .form-item label {
         flex-basis: auto;
     }
-
 
     /* Style the navigation menu */
     .topnav {
@@ -470,7 +470,7 @@ form {
 
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
-        background-color: #FAD6E1;
+        background-color: #ddd;
         color: black;
     }
 
