@@ -158,18 +158,6 @@ div .hero-txt {
     padding: 20px;
 }
 
-.hero-item {
-    display: flex;
-    flex: 1 1 auto;
-
-}
-
-.computer-hero {
-    object-fit: cover;
-    height: 300px;
-    width: auto;
-}
-
 .intro {
     padding: 2rem;
     display: flex;
@@ -391,6 +379,7 @@ form {
         padding: 20px;
         width: 80%;
     }
+
     .form-item {
         display: flex;
         flex-direction: column;  
