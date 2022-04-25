@@ -9,6 +9,11 @@ The end project did deviate from the initial wirefames during the build as I amm
 [The wireframes can be viewed here](wireframes)
 
 ## Responsive
+My portfolio was built responsively for Desktop, Tablet & Mobile using the following media queries.
+Mobile: @media screen and (max-width: 768px)
+Tablets : @media screen and (min-width: 768px)
+
+[Screenshots can be viewed here](screenshots)
 
 ## Credits
 This site was built using [GitHub Pages](https://pages.github.com/).
