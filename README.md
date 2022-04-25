@@ -6,7 +6,7 @@ I wireframed the project in Adobe XD designing Desktop, Mobile and Tablet wirefr
 
 The end project did deviate from the initial wirefames during the build as I ammended the build when I discovered what was possible in the world of flexbox and css.
 
-[The wireframes can be viewed here](wireframes)
+[The wireframes can be viewed here](Wireframes)
 
 ## Responsive
 My portfolio was built responsively for Desktop, Tablet & Mobile using the following media queries.
