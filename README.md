@@ -4,6 +4,10 @@ Hi this is my portfolio built for module 1 of She Codes Plus. My student name is
 ## Wireframes
 I wireframed the project in Adobe XD designing Desktop, Mobile and Tablet wireframes.
 
+The end project did deviate from the initial wirefames during the build as I ammended the build when I discovered what was possible in the world of flexbox and css.
+
+[The wireframes can be viewed here](wireframes)
+
 ## Responsive
 
 ## Credits
