@@ -262,7 +262,7 @@ footer {
 form {
     padding-top: 20px;
     margin: 50px auto;
-    width: 90%;
+    width: 50%;
     background-color: #fff;
     border-radius: 5px;
 }
@@ -387,8 +387,9 @@ form {
         display: none;
     }
 
-    .form {
+    form {
         padding: 20px;
+        width: 80%;
     }
     .form-item {
         display: flex;
