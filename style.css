@@ -77,6 +77,12 @@ nav a:hover {
     padding-left: 10px;
 }
 
+.hero-container {
+    display: flex;
+    flex-direction: column;;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 h1 {
     font-size: 3rem;
@@ -100,6 +106,7 @@ p {
 .btn {
     background-color: #FFD1DC;
     border: 1px solid rgb(235, 170, 215);
+    border-radius: 15px;
     color: #000;
     padding: 15px 32px;
     text-align: center;
@@ -112,23 +119,9 @@ p {
     background-color: rgb(235, 170, 215);
 }
 
-.hero {
-    height: 100vh;
-    max-height: 100vh;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: #000;
-    padding: 5rem;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
 
 div.transbox {
-    width: 80%;
+    width: 50%;
     background: rgba(255, 255, 255, 0.6);
     padding: 20px;
 }
@@ -321,6 +314,7 @@ form {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px;
 }
 .project-card-inner {
+    text-align: center;
     font-size: 2rem;
     display: flex;
     background: #fff;
@@ -388,10 +382,16 @@ form {
 
     #skills {
         flex-wrap: wrap;
+        width: 50%;
+        text-align: center;
+        margin: auto;
     }
 
     #skills>img {
         margin: 2px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     .navbar {
@@ -465,11 +465,11 @@ form {
 /* Tablets */
 @media screen and (min-width: 768px) {
     .hero {
-        min-height: 50vh;
+        max-height: 100vh;
         position: relative;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: left bottom;
+        background-position: left top;
         color: #000;
         padding: 5rem;
     }
@@ -521,6 +521,13 @@ form {
         color: white;
     }
 
+    .hero-container {
+        display: flex;
+        flex-direction: column;;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 /* large screens */
@@ -532,5 +539,25 @@ form {
 
     .navbar {
         display: flex;
+    }
+    .hero {
+        max-height: 1000vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: #000;
+        padding: 5rem;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
