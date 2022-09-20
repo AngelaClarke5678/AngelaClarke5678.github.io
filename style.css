@@ -3,13 +3,15 @@
     --feature-main-colour:  #FFD1DC;
     --feature-light-colour: #FAD6E1;
     --font-dark: #000;
-    --feature-main-colour: #ddd;
+    --light-font: #fff;
     --highlight-hover: rgb(235, 170, 215);
+    --heading-font:"Abril Fatface", sans-serif ;
+    --body-font: "Montserrat", sans-serif:
 }
 
 
 html {
-    font-family: Montserrat;
+    font-family:var(--body-font);
 }
 
 html,
@@ -19,13 +21,13 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: visible;
-    background-color: #FFD1DC;
+    background-color:var(--feature-main-colour);
 }
 
 header {
     top: 0;
     width: 100%;
-    background-color: #FAD6E1;
+    background-color:var(--feature-light-colour);
     z-index: 1;
 }
 
@@ -68,6 +70,7 @@ nav a {
 
 nav a:hover {
     background-color: rgb(235, 170, 215);
+    color: #000;
 }
 
 .navbar ul {
@@ -99,20 +102,21 @@ nav a:hover {
 h1 {
     font-size: 3rem;
     text-align: center;
-    font-family: Abril Fatface;
+    font-family:  var(--heading-font);
     line-height: 1.2rem;
 }
 
 h2 {
     font-size: 2.5rem;
-    font-family: Abril Fatface;
+    font-family: var(--heading-font);
     text-align: center;
 }
 
 p {
-    color: black;
+    color: var(--font-dark);
     text-align: center;
     font-size: 1.3rem;
+    font-family: var(--body-font);
 }
 
 a {
@@ -127,7 +131,7 @@ a:hover {
     background-color: #FFD1DC;
     border: 1px solid rgb(235, 170, 215);
     border-radius: 50px;
-    color: #000;
+    color: var(--font-dark);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -137,6 +141,7 @@ a:hover {
 
 .btn:hover {
     background-color: rgb(235, 170, 215);
+    color: var(--font-light);
 }
 
 
@@ -149,7 +154,7 @@ div.transbox {
 div .hero-txt {
     margin: 5%;
     font-weight: bold;
-    color: #000000;
+    color: var(--font-dark);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -159,7 +164,7 @@ div .hero-txt {
 .title {
     font-size: 3rem;
     text-align: center;
-    font-family: Abril Fatface;
+    font-family:  var(--heading-font);
     line-height: 1.1;
     margin-bottom: 1rem;
 }
@@ -368,7 +373,7 @@ form {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
-        color: #000;
+        color: var(--font-dark)
     }
 
     .hero-container {
@@ -465,7 +470,7 @@ form {
 
     /* Style navigation menu links */
     .topnav a {
-        color: black;
+        color: var(--font-dark);
         padding: 14px 16px;
         text-decoration: none;
         text-align: center;
@@ -485,13 +490,13 @@ form {
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: #ddd;
-        color: black;
+        color: var(--font-dark);
     }
 
     /* Style the active link (or home/logo) */
     .active {
         background-color: #FAD6E1;
-        color: white;
+        color:var(--font-light);
     }
 }
 
@@ -525,7 +530,7 @@ form {
 
     /* Style navigation menu links */
     .topnav a {
-        color: #000;
+        color: var(--font-dark);
         padding: 14px 16px;
         text-decoration: none;
         text-align: center;
@@ -545,13 +550,13 @@ form {
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: #ddd;
-        color: black;
+        color:var(--font-dark);
     }
 
     /* Style the active link (or home/logo) */
     .active {
         background-color: #FAD6E1;
-        color: white;
+        color: var(--font-light);
     }
 
     .hero-container {
@@ -580,7 +585,7 @@ form {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        color: #000;
+        color:var(--font-light);
         padding: 5rem;
         left: 0;
         top: 0;
