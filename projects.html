@@ -1,76 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body class="site">
   <header>
     <div class="container">
-        <div class="sub-container">
-            <nav class="navbar">
-                <a href="index.html"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="sub-container">
+        <nav class="navbar">
+          <a href="index.html"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <!-- Top Navigation Menu -->
-<div class="topnav">
-<a href="index.html" class="active"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
-<!-- Navigation links (hidden by default) -->
-<div id="myLinks">
-  <a href="index.html">About</a>
-  <a href="projects.html">Projects</a>
-  <a href="contact.html">Contact</a>
-</div>
-<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-</a>
-</div>
-</header>
-<main class="site-content">
-<h1>Projects</h1>
-  <section class="container">
-    <div class="project-card">
-      <div class="project-card-inner"> <h3>Python Weather Project</h3></div>
-      <div class="project-card-inner"> <p>In this assignment I built a Python weather report that outputed a forecast for the week based off data in a CSV file. The code succesfully passed a series of tests.</p></div>   
-         <div class="project-card-inner">
-             <a href="https://github.com/AngelaClarke5678/Python-Weather-Project/blob/main/weather.py" target="_blank"><img class="projects-img" src="/images/python weather project.png"></a>
-             </div>
-           </div>
-<div class="project-card">
- <div class="project-card-inner"> <h3>Django News blogging site</h3></div>
- <div class="project-card-inner"> <p>Using Django I built a news blogging website that allowed users to create accounts and post news stories. Users were able to signin, edit their profiles, create new posts, update and delete existing posts.</p></div>   
-    <div class="project-card-inner">
-      <a href="https://agile-springs-01538.herokuapp.com/news/" target="_blank"> <img class="projects-img" src="/images/Django project.png"></a>
+    <div class="topnav">
+      <a href="index.html" class="active"><img class="logo" src="images/Logo Large.png" alt=" Angela Clarke"></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <main class="site-content">
+    <h1>Projects</h1>
+    <section class="container">
+      <div class="project-card">
+        <div class="project-card-inner">
+          <h3>Recruitment Platform</h3>
+        </div>
+        <div class="project-card-inner">
+          <p>Chocode Mentors is a full-stack app created to help She Codes manage their mentor recruitment process. The
+            platform is built with React and DRF and deployed on heroku. I managed the front end development and used
+            Agile processes to deliver the project. I am particulary proud of my implementation of a Data Table from
+            react-data-table component and extending the out of the box features to filter the data on three
+            requirements.</p>
+        </div>
+        <div class="project-card-inner"><a href="https://chocode-mentors.herokuapp.com/" target="_blank">
+            <img class="projects-img" src="/images/group-project-dashboard.png"></a>
         </div>
       </div>
       <div class="project-card">
-        <div class="project-card-inner"> <h3>Django Rest Framework API</h3></div>
-        <div class="project-card-inner"> <p>I built a web API using Django Rest Framework for a crowd funding website that I then deployed on Heroku. The code produced succesful POST, GET, PUT and DELETE requests. I tested the API in Insomnia and built environments for both PROD and DEV.</p></div>   
-           <div class="project-card-inner">
-               <img class="projects-img" src="/images/Post Project.png">
-               </div>
-             </div>
-  </section>  
+        <div class="project-card-inner">
+          <h3>React crowdfunding site</h3>
+        </div>
+        <div class="project-card-inner">
+          <p>ReactJs front-end connecting to a Djano Rest API. A crowdfunding website that allows a user to to post a new project and collect pledges.</p>
+        </div>
+        <div class="project-card-inner">
+          <a href="https://secret-fortress-83863.herokuapp.com/" target="_blank"> <img class="projects-img"
+              src="/images/contributi.png"></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-inner">
+          <h3>Python Weather Project</h3>
+        </div>
+        <div class="project-card-inner">
+          <p>In this assignment I built a Python weather report that outputed a forecast for the week based off data in
+            a CSV file. The code succesfully passed a series of tests.</p>
+        </div>
+        <div class="project-card-inner">
+          <a href="https://github.com/AngelaClarke5678/Python-Weather-Project/blob/main/weather.py" target="_blank"><img
+              class="projects-img" src="/images/python weather project.png"></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-inner">
+          <h3>Django News blogging site</h3>
+        </div>
+        <div class="project-card-inner">
+          <p>Using Django I built a news blogging website that allowed users to create accounts and post news stories.
+            Users were able to signin, edit their profiles, create new posts, update and delete existing posts.</p>
+        </div>
+        <div class="project-card-inner">
+          <a href="https://agile-springs-01538.herokuapp.com/news/" target="_blank"> <img class="projects-img"
+              src="/images/Django project.png"></a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-inner">
+          <h3>Django Rest Framework API</h3>
+        </div>
+        <div class="project-card-inner">
+          <p>I built a web API using Django Rest Framework for a crowd funding website that I then deployed on Heroku.
+            The code produced succesful POST, GET, PUT and DELETE requests. I tested the API in Insomnia and built
+            environments for both PROD and DEV.</p>
+        </div>
+        <div class="project-card-inner">
+          <img class="projects-img" src="/images/Post Project.png">
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
-    <div><p>© Copyright 2022 Angela Clarke</p></div>
+    <div>
+      <p>© Copyright 2022 Angela Clarke</p>
+    </div>
     <div id="icons" class="footer-icons">
-      <a href="https://www.linkedin.com/mwlite/in/angeladoust" target="_blank" ><img src="images/icons8-linkedin-circled-480.png"
-              alt="LinkedIn"></a>
-      <a href="https://github.com/AngelaClarke5678" target="_blank"> <img src="images/icons8-github-480.png" alt="Github"></a>
-  </div>
-</footer>
-<script src="script.js"></script>
+      <a href="https://www.linkedin.com/mwlite/in/angeladoust" target="_blank"><img
+          src="images/icons8-linkedin-circled-480.png" alt="LinkedIn"></a>
+      <a href="https://github.com/AngelaClarke5678" target="_blank"> <img src="images/icons8-github-480.png"
+          alt="Github"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
